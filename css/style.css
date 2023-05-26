@@ -1,0 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Inter', 'Sans-Serif';
+    margin: 0 1rem;
+    padding: 0;
+    
+}
+:root{
+    --vinho-principal:#8E2424;
+    --cinza-principal:#101828;
+    --cinza-texto: #667085;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}

@@ -1,0 +1,29 @@
+:root{
+    --vinho-principal:#8E2424;
+    --cinza-principal:#101828;
+    --cinza-texto: #667085;
+}
+.cabecalho__container{
+    padding: .5rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho__menu ul{
+    display: flex;
+    list-style-type: none;
+    text-transform: capitalize;
+}
+.cabecalho__menu a, .cabecalho__botao a{
+    text-decoration: none;
+    color: var(--cinza-texto);
+    text-transform: capitalize;
+}
+ .cabecalho__botao-especial{
+    background-color: var(--vinho-principal);
+    padding: 10px 18px;
+    color: #fff;
+    border: 1px solid var(--vinho-principal);
+    border-radius: 8px;
+    text-transform: capitalize;
+} 
